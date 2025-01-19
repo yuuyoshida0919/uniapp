@@ -1,0 +1,63 @@
+$body-bg: #f7f7f7;
+$body-color: #333;
+$font_size_base: 1rem;
+$primary: #3cb371;
+$danger: #e74c3c;
+$success: #28a745;
+$link-color: white;
+
+@import "bootstrap/bootstrap.scss";
+
+body {
+    // background-color: $body-bg;
+    font-family: 'Arial', sans-serif;
+    // color: $body-color;
+}
+
+.header {
+    background-color: $primary !important;;
+}
+
+// .nowrap-text {
+//     white-space: nowrap; /* テキストを折り返さない */
+//     overflow: visible;   /* 見切れないようにする */
+//     text-overflow: clip; /* 省略記号 "..." を無効にする */
+// }
+
+
+
+h1, .h2, .h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button, .btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-star, .fa-star-o {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.fa-star.text-warning {
+    color: $primary;
+}
