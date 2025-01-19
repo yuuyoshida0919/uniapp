@@ -12,7 +12,9 @@ Mysql
 # デモ
 ![uniapp_レビュー検索](https://github.com/user-attachments/assets/c8915263-0943-4418-bb7f-114efec0445a)
 
-![uniapp_レビュー投稿](https://github.com/user-attachments/assets/5c78d46d-b8bc-4387-ade9-8b90dfd573d8)
+![uniapp_レビュー投稿](https://github.com/user-attachments/assets/8b9174e6-d45b-4890-abe3-2a910f49b78d)
+
+
 
 # ディレクトリ構造
 └─uniapp
